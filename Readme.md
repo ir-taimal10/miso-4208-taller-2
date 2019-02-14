@@ -48,4 +48,10 @@ describe('Form in error state', () => {
 
 ![Results](results/CPU_MEMORY_TIME.PNG)
 
+*¿Qué tantos recursos se pueden ahorrar ejecutando las pruebas de manera headless?*
 
+El recurso que mas se ve reducido es el consumo de memoria,  por su parte el consumo de CPU y el tiempo se mantienen iguales 
+en el contexto de este proyecto.
+
+*¿En qué casos cree que valdría la pena ejecutar sus pruebas de esta forma?*
+Sería muy importante este ahorro de recursos cuando se debe ejecutar periodicamente las pruebas y cuando el bloque de ejecución es lo suficientemente grande
