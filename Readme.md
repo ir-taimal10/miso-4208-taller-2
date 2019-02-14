@@ -9,7 +9,7 @@ npm install
 
 una vez instaladas las dependencias es posible ejecutar las pruebas para cada framework:
 
-##Cypress
+## Cypress
 ````
 npm run test:cypress
 ````
@@ -17,7 +17,7 @@ npm run test:cypress
 La configuración de Cypress para usar ``Headed`` es usando el parámetro `--headed`
 
 
-##Puppeteer
+## Puppeteer
 ````
 npm run test:puppeteer
 ````
@@ -43,3 +43,9 @@ describe('Form in error state', () => {
 
     }, 15000);
 ````
+
+### Resultados
+
+![Results](results/CPU_MEMORY_TIME.PNG)
+
+

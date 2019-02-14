@@ -282,5 +282,5 @@ Thumbs.db
 .idea
 .idea/vcs.xml
 
-*.png
+**/*screenshot.png
 **/cypress/videos/**
